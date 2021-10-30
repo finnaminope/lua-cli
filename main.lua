@@ -6,8 +6,7 @@ function wait(sec)
 end
 print("done")
 lr = true
-inval = 0
-print("welcome to lua cli!")
+inval = 0print("welcome to lua cli!")
 
 while lr do
 	print("ready")
@@ -23,7 +22,7 @@ while lr do
 	else
 		str = ("'".. str .. "'")
 		print(str.. " is not a valid command")
-			inval = inval + 1
+
 	
 end
 end
