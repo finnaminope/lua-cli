@@ -18,7 +18,7 @@ print("waiting for input")
 var = io.read("*line")
 print(var)
 else
-print("invalid str please try again")
+str = ("'".. str .. "'")
+print(str.. " is not a valid command")
 end
 end
-
