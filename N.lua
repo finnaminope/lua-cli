@@ -1,0 +1,2 @@
+SYSprint("N","NONE")
+SYSprint ("SYSTEM"," PROGRAM EXITED")
