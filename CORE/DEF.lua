@@ -3,12 +3,12 @@ print("DEFINING SYSprint")
 function SYSprint(pname,txt)
 	print("["..pname.."]".." "..txt)
 end
-print("DEFINING CLR")
-function CLR()
-	os.execute("clear")
-end
-print("DEFINING SYSwrite")
+SYSprint("BOOT SYSTEM","DEFINING CLR")
+SYSprint("BOOT SYSTEM","DEFINING SYSwrite")
 function SYSwrite(pname,txt)
 	io.write("["..pname.."]".." "..txt)
 end
-print("DONE")
+function wait(seconds)
+	local start = os.time()
+	repeat until os.time() > start + seconds
+end
