@@ -1,2 +1,1 @@
-SYSprint("HELP","current commmands: PDONL: whatever you type gets outputted into the console. CLR: clears the screen. N: prints notices.  CORE/RUN: lets yor run apps. current apps: PDONL: whatever you type gets printed into the output")
-SYSprint ("SYSTEM"," PROGRAM EXITED")
+SYSprint("HELP","Typing 'RUN' will let you run apps. App options are: '1', 'PDONL', and 'WAR_CATS'. 'PDONL' repeats the text you enter.")

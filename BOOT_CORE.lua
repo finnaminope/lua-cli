@@ -2,5 +2,5 @@
 os.execute("clear")
 print("BOOTING UP")
 require("CORE/DEF")
-SYSprint("SYSTEM","RUNNING ".. _VERSION .. " ")
+SYSprint("BOOT SYSTEM","RUNNING ".. _VERSION)
 require("CORE/SECURE_BOOT_CORE")
