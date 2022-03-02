@@ -1,2 +1,4 @@
 language="lua"
-run="lua BOOT_CORE.lua"
+run="sh run.sh"
+
+

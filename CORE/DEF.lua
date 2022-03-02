@@ -8,6 +8,7 @@ SYSprint("BOOT SYSTEM","DEFINING SYSwrite")
 function SYSwrite(pname,txt)
 	io.write("["..pname.."]".." "..txt)
 end
+
 SYSprint("BOOT SYSTEM","DEFINING wait")
 function wait(seconds)
 	local start = os.time()
@@ -25,7 +26,7 @@ function C_ERROR(FC)
 			print("AN ERROR HAS OCURRED AND LUA CLI HAS BEEN SHUT DOWN TO PREVENT DAMAGE TO YOUR COMPUTER. SUPPORT CODE: 0x4e4f545f50524f5649444544")
 			os.exit(2)
 		else
-			print("AN ERROR HAS OCURRED AND LUA CLI HAS BEEN SHUT DOWN TO PREVENT DAMAGE TO YOUR COMPUTER. SUPPORT CODE: "..  "0x" .. FC)
+			print("AN ERROR HAS OCURRED AND LUA CLI HAS BEEN SHUT DOWN TO PREVENT DAMAGE TO YOUR COMPUTER.")
 			os.exit(2)
 		end
 	else
