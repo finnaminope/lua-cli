@@ -18,7 +18,7 @@ end
 SYSprint("BOOT SYSTEM","DEFINING C_ERROR")
 function C_ERROR(FC)
 	os.execute("clear")
-	SYSwrite("ERROR_HANDLER","AN ERROR HAS OCURRED. DO YOU WANT TO RESUME EXECUTION (Y/N): ")
+	SYSwrite("ERROR_HANDLER ","AN ERROR HAS OCCURED. DO YOU WANT TO RESUME EXECUTION (Y/N): ")
 	str = io.read("*line")
 	if string.match("N",str) then
 		os.execute("clear")

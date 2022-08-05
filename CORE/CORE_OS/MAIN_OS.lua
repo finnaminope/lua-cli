@@ -1,4 +1,4 @@
-PASS = 951753
+PASS = 0
 while true do
 	SYSwrite("SYSTEM","PASSWORD: ")
 	if string.match(io.read("*line"),PASS) then
